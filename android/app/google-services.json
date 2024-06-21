@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "253324438060",
+    "project_id": "vega-drive-73fa0",
+    "storage_bucket": "vega-drive-73fa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253324438060:android:11bd57c3a3c4e5c96a7f89",
+        "android_client_info": {
+          "package_name": "com.example.vega_drive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRFgKbRlbywNVMvYa73t-x1bCeI8ktepM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

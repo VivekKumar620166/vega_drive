@@ -1,0 +1,51 @@
+name: vega_drive  # Name of your Flutter project
+description: "A new Flutter project."  # Description of your project
+publish_to: 'none'  # Prevents the package from being published to pub.dev
+
+version: 1.0.0+1  # Version number of your application
+
+environment:  # Specifies the minimum Dart SDK version required
+  sdk: '>=2.12.0 <3.0.0'
+
+
+dependencies:  # List of dependencies required for your project
+  flutter:
+    sdk: flutter  # Flutter SDK
+  cupertino_icons: ^1.0.2  # Cupertino Icons for iOS style icons
+  get: ^4.6.6  # Package for state management and navigation
+  flutter_svg: ^1.1.4  # Package for working with SVG images
+  google_fonts: ^4.0.4  # Package for using Google Fonts
+#  fl_country_code_picker: ^0.1.9+1  # Package for country code picker
+  fl_country_code_picker: ^0.0.2+1
+#  location: ^4.1.1  # Package for accessing device location
+  pinput: ^2.2.31  # Package for customizable pin input field
+  firebase_core: ^2.25.4  # Firebase Core SDK
+  firebase_auth: ^4.17.4  # Firebase Authentication SDK
+  country_flags: ^2.2.0  # Package for country flags
+  country_picker: ^2.0.25  # Package for country picker
+  image_picker: ^1.0.7  # Package for picking images from gallery or camera
+  cloud_firestore: ^4.15.5  # Cloud Firestore SDK
+  firebase_storage: ^11.6.6  # Firebase Cloud Storage SDK
+#  fluttertoast: ^8.2.4  # Package for showing toast messages
+#  random_string: ^2.3.1  # Package for generating random strings
+#  permission_handler: ^11.3.0  # Package for handling permissions
+  google_maps_flutter: ^2.2.0  # Package for integrating Google Maps
+  firebase_database: ^10.4.6  # Firebase Realtime Database SDK
+  flutter_google_places: ^0.3.0  # Package for Google Places autocomplete
+  google_maps_webservice:  # Package for using Google Maps Web Services
+  geocoding: ^3.0.0
+  flutter_credit_card: ^3.0.4
+  country_code_picker: ^3.0.0
+#  path: ^1.8.0  # Package for working with file paths
+#  path_provider: ^2.0.3  # Package for accessing filesystem paths
+#  polyline: ^1.0.2
+
+dev_dependencies:  # Development dependencies
+  flutter_test:
+    sdk: flutter  # Flutter test SDK
+  flutter_lints: ^2.0.0  # Set of recommended lints for good coding practices
+
+flutter:  # Flutter specific configurations
+  uses-material-design: true  # Indicates that the app uses Material Design
+  assets:  # List of asset directories or files
+    - assets/  # Path to the directory containing assets
